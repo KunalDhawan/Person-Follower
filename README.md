@@ -1,1 +1,3 @@
-# FAIR
+# Person Follower Bot
+
+Developed a bot that could accurately follow a human in a given closed enclosure. Concepts used were: Image processing: to detect the human using a characteristic colour and to calculate the change in position of the subject and hence correspondingly calculate the next movement of the robot , PID (Proportional, Integral, Derivative): to minimize the error during motion of the bot and to ensure smooth motion even in case of sudden changes in subject’s location , ROS : to communicate between the python script which implemented image processing and the microcontroller(Arduino) which was responsible for bot motion .This project was presented during Techevince-The Annual Technical Exhibition of IIT Guwahati and was highly appreciated. More details are availabe at: https://kunal-dhawan.weebly.com/person-follower-bot.html
